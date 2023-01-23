@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/Cosmic-Chariots',
+  process.env.MONGODB_URI || 'mongodb+srv://mjshelton12:Password123@cosmic-cluster.wnatxoj.mongodb.net/Cosmic-Chariots?retryWrites=true&w=majority',
   
   {
     useNewUrlParser: true,
