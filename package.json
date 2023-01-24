@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/space-frontiers/cosmic_chariots_backend.git"
+    "url": "git+https://github.com/mjshelton12/cosmic_chariots_backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/space-frontiers/cosmic_chariots_backend/issues"
+    "url": "https://github.com/mjshelton12/cosmic_chariots_backend/issues"
   },
-  "homepage": "https://github.com/space-frontiers/cosmic_chariots_backend#readme",
+  "homepage": "https://github.com/mjshelton12/cosmic_chariots_backend#readme",
   "dependencies": {
     "apollo-server-express": "^3.11.1",
     "bcrypt": "^5.1.0",
