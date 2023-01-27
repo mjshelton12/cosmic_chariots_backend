@@ -7,7 +7,7 @@
     "start": "node server.js",
     "watch": "nodemon",
     "seed": "node seeders/seed.js",
-    "heroku-postbuild": "npm install && npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
