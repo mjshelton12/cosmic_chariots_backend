@@ -6,11 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon",
-    "seed": "node seeders/seed.js",
-    "client": "npm start --prefix client",
-    "client-install": "npm install --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "seed": "node seeders/seed.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +33,7 @@
     "nodemon": "^2.0.3"
   },
   "engines": {
-    "node": "16.16.0"
+    "node": "16.16",
+    "npm": "8.11.0"
   }
 }
